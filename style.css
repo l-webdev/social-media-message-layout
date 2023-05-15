@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+main {
+  width: 500px;
+  border: solid gray;
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 1rem;
+}
+
+.profile {
+  display: grid;
+  grid-template-columns: 13% 76.5% 6.5%;
+  grid-gap: 12px;
+  width: 100%;
+}
+
+.profile-picture {
+  height: 53px;
+  border-radius: 50%;
+}
+
+.profile-name {
+  margin-bottom: 0;
+}
+
+.last-seen-status {
+  margin-top: 2px;
+  color: gray;
+  font-size: 0.85rem;
+}
+
+.options {
+  border: none;
+  width: 16px;
+  background-color: transparent;
+  position: end;
+}
+
+article {
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+footer {
+  border-top: solid 2px gray;
+  display: flex;
+  justify-content: center;
+}
+
+footer > button {
+  margin-top: 1.5rem;
+  border: none;
+  background-color: rgb(205, 205, 205);
+  border-radius: 5px;
+  padding: 7px 20px 7px 20px;
+  font-weight: bold;
+}
+
+button + button {
+  margin-left: 3.5rem;
+}
